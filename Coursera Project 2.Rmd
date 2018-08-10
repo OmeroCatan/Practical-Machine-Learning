@@ -1,8 +1,8 @@
 ---
 title: "Practical Machine Learning Project"
 author: "Omero Catan"
-date: "August 5, 2018"
-output: html_document
+date: "August 10, 2018"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
