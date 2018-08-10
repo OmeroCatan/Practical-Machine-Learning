@@ -2,7 +2,7 @@
 title: "Practical Machine Learning Project"
 author: "Omero Catan"
 date: "August 5, 2018"
-output: rmarkdown::github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -74,7 +74,9 @@ confuse
 
 ## Random Forests Output
 
-The model created has an accuracy of 99.41%. This is an acceptable accuracy percentage to move forward and apply to the test cases.
+In random forests, the unbiased estimate of the test set error is estimated internally during the run of the model. Therefore, cross-validation is not required to be ran separately.
+
+The model created has an accuracy of 99.41%. Therefore, my predcted accuracy for the out-of-sample error is 0.59%. This is an acceptable accuracy percentage to move forward and apply to the test cases.
 
 ## Test Cases
 ```{r}
